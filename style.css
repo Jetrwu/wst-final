@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #232f3e;
+  color: #fff;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.1s ease-in-out; /* Add transition effect for smooth color change */
+}
+
+.navbar ul li a:hover {
+  color: #ff8800; /* Change the color on hover */
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  margin-top: 0;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"] {
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container input[type="submit"] {
+  padding: 8px;
+  background-color: #232f3e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container p {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.container p a {
+  color: #232f3e;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; /* Add transition effect for smooth color change */
+}
+
+.container p a:hover {
+  color: #ff8800; /* Change the color on hover */
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.footer-bar {
+  text-align: center;
+}
